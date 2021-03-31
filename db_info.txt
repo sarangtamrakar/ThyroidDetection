@@ -1,0 +1,11 @@
+#db for logging
+logs    1. training   2. predict  3. fileoperation  4. preprocessing   5. s3_bucket   6. clustering   7. emaillogs
+
+
+
+# db for storing the training & prediction data
+finaldb    1. trainingdatacol   2. predictiondatacol
+
+
+# db for null info
+nulldb  1. nullcol

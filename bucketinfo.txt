@@ -1,0 +1,23 @@
+thyroidtrainarchievebaddata16022021,
+thyroidpredictarchievebaddata16022021,
+
+thyroidpicklemodel16022021,
+
+thyroidtrainbadrawdata16022021,
+thyroidpredictbadrawdata16022021,
+
+thyroidtraingoodrawdata16022021,
+thyroidpredictgoodrawdata16022021,
+
+thyroidtrainingbatchfiles16022021,
+thyroidpredictionbatchfiles16022021,
+
+thyroidschema16022021    1.schema_training.json  2. schema_prediction.json ,
+
+
+
+thyroidinputfiles16022021  1. inputfiletrain.csv   2. inputfilepredict.csv
+
+thyroidencoderbucket16022021
+
+thyroidresultbucket16022021   PredictionFile.csv
