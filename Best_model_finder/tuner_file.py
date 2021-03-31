@@ -183,11 +183,11 @@ class Model_finder_class:
             self.date = self.now.date()
             self.current_time = self.now.strftime("%H%M%S")
 
-            self.logger.logs("logs","MODELMETRICS","Date :{} , Time : {}".format(str(self.date),str(self.current_time)))
-            self.logger.logs("logs","MODELMETRICS","RandomForest Score : "+str(score_rf))
-            self.logger.logs("logs","MODELMETRICS","DecisionTree Score : "+str(score_dt))
-            self.logger.logs("logs","MODELMETRICS","Gradient Boost Score : "+str(score_gb))
-            self.logger.logs("logs","MODELMETRICS","XGBoostClassifier Score : "+str(score_xgb))
+            self.logger.logs("logs","modelmetrics","Date :{} , Time : {}".format(str(self.date),str(self.current_time)))
+            self.logger.logs("logs","modelmetrics","RandomForest Score : "+str(score_rf))
+            self.logger.logs("logs","modelmetrics","DecisionTree Score : "+str(score_dt))
+            self.logger.logs("logs","modelmetrics","Gradient Boost Score : "+str(score_gb))
+            self.logger.logs("logs","modelmetrics","XGBoostClassifier Score : "+str(score_xgb))
 
 
             if (score_rf > score_dt) & (score_rf > score_gb) & (score_rf > score_xgb):
